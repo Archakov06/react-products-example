@@ -7,6 +7,9 @@ const Block = styled.div`
   transition: box-shadow 0.2s, transform 0.2s ease;
   cursor: pointer;
   margin-bottom: 30px;
+  flex: 1;
+  margin-left: 15px;
+  margin-right: 15px;
   &:hover {
     transform: translateY(-3px);
   }
