@@ -42,8 +42,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="products">
-        {this.state.products.map(product => (
+        {this.state.products.map((product, i) => (
           <Product
+            key={i}
             title={product.title}
             image={product.image}
             price={product.price}
